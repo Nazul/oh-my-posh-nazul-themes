@@ -25,6 +25,9 @@
                 },
                 {
                     "background": "#007ACC",
+                    "background_templates": [
+                        "{{if .Root}}#DB3013{{end}}"
+                    ],
                     "foreground": "#ffffff",
                     "properties": {
                         "folder_icon": "\u2026",
@@ -38,6 +41,9 @@
                 },
                 {
                     "background": "#007ACC",
+                    "background_templates": [
+                        "{{if .Root}}#DB3013{{end}}"
+                    ],
                     "foreground": "#ffffff",
                     "properties": {
                         "cherry_pick_icon": "\u2713 ",
@@ -54,7 +60,10 @@
                 },
                 {
                     "foreground": "#007ACC",
-                    "style": "plain",
+                    "foreground_templates": [
+                        "{{if .Root}}#DB3013{{end}}"
+                    ],
+                   "style": "plain",
                     "template": "\ue0b0 ",
                     "type": "text"
                 }
