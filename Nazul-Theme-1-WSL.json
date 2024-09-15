@@ -20,7 +20,7 @@
                 {
                     "foreground": "#ffffff",
                     "style": "plain",
-                    "template": "{{ .UserName }}@{{ .HostName }} ",
+                    "template": "{{ .UserName }} ",
                     "type": "session"
                 },
                 {
@@ -63,7 +63,7 @@
                     "foreground_templates": [
                         "{{if .Root}}#DB3013{{end}}"
                     ],
-                   "style": "plain",
+                    "style": "plain",
                     "template": "\ue0b0 ",
                     "type": "text"
                 }
